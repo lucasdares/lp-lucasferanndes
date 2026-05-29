@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-primary: #00D97E;
+  --color-brand-secondary: #00C26E;
+  --color-dark-bg-deep: #0F1318;
+  --color-dark-bg-card: #151A21;
+  --color-dark-bg-highlight: #1B2129;
+  --color-text-premium-gray: #AAB3BD;
+}
+
+body {
+  background-color: var(--color-dark-bg-deep);
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbar to keep it look like premium startup dashboard */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark-bg-deep);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-dark-bg-highlight);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-primary);
+}

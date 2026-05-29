@@ -1,0 +1,6 @@
+{
+  "name": "EVO — Sistema de Evolução Corporal",
+  "description": "Landing page de altíssima conversão com quiz de diagnóstico para o Método EVO.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
